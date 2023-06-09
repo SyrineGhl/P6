@@ -1,15 +1,13 @@
-// import React from "react";
-import Header from "../components/header";
-import Footer from "../components/footer";
+import Layout from "../components/layout";
 
 export default function FicheLogement() {
     return(
         <>
-        <Header/>
+        <Layout>
         <main>
             <p> Fiche Logement</p>
         </main>
-        <Footer />
+        </Layout>
         </>
     )
 }

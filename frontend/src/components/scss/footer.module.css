@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: white;
+}
+
+footer img {
+  width: 50px; /* Ajustez la largeur selon la taille de votre logo */
+  height: auto;
+  margin-bottom: 5px;
+}
+
+footer p {
+  display: flex;
+  font-size: 11px;
+}/*# sourceMappingURL=footer.module.css.map */

@@ -1,15 +1,13 @@
-// import React from "react"
-import Header from "../components/header";
-import Footer from "../components/footer";
+import Layout from "../components/layout";
 
 export default function Home (){
     return( 
         <>
-        <Header/>
+        <Layout>
         <main>
             <p> Accueil</p>
         </main>
-        <Footer />
+        </Layout>
         </>
     )
 }
