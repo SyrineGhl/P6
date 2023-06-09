@@ -1,15 +1,9 @@
-// import React from "react";
-import Header from "../components/header";
-import Footer from "../components/footer";
+import Layout from "../components/layout";
 
 export default function QuatreCentQuatre() {
-    return(
-        <>
-        <Header/>
-        <main>
-            <p> 404 </p>
-        </main>
-        <Footer />
-        </>
-    )
+  return (
+    <Layout>
+        <p> 404 </p>
+    </Layout>
+  )
 }
