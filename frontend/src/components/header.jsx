@@ -1,6 +1,4 @@
 import React from "react";
-import "./scss/header.module.scss"
-import styles from "./scss/header.module.scss"
 
 const Header = () => {
     return(
