@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
 import Home from './pages/home';
-import APropos from './pages/a_propos_logement';
-import FicheLogement from './pages/PropertyInfo';
+import APropos from './pages/about';
+import FicheLogement from './pages/propertyInfo';
 import QuatreCentQuatre from './pages/404';
 
 function App() {
