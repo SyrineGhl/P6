@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { NavLink } from 'react-router-dom';
 
 const LocationCard = () => {
   const [data, setData] = useState([]);
@@ -18,15 +19,17 @@ const LocationCard = () => {
   }, []);
 
   const displayedData = data.slice(0, 3);
-  
+
   return (
     <div>
       <div className="card-container">
         {displayedData.map((item) => (
-          <div key={item.id} className="card">
-            <h2 className="card-title">{item.title}</h2>
-            <img src={item.cover} alt={item.title} />
-          </div>
+          <NavLink key={item?.id} to={`/fiche-logement/${item.id}`} className="card-link" activeclassname="active">
+            <div className="card">
+              <h2 className="card-title">{item?.title}</h2>
+              <img src={item?.cover} alt={item?.title} />
+            </div>
+          </NavLink>
         ))}
       </div>
     </div>

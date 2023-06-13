@@ -11,7 +11,7 @@ function App() {
        <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/a-propos" exact element={<APropos />} />
-        <Route path="/fiche-logement" exact element={<FicheLogement />} /> 
+        <Route path="/fiche-logement/:id" exact element={<FicheLogement />} />        
         <Route path="/404" exact element={<QuatreCentQuatre />} />
         <Route path="*" element={<Navigate to="/404" replace />} />
        </Routes>

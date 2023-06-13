@@ -5,7 +5,7 @@ const Banner = (props) => {
 
   return (
     <section className="banner">
-      <h1>Chez vous, partout et ailleurs</h1>
+    <h1>Chez vous, partout et ailleurs</h1>
       <img className="imgBanner" src={imgSrc} alt={imgAlt}/>
     </section>
   );
