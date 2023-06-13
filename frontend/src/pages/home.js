@@ -1,6 +1,7 @@
 import Layout from "../components/layout";
 import Banner from "../components/banner";
 import LocationCard from "../components/cardLocation";
+import React from "react";
 
 export default function Home (){
     return( 
