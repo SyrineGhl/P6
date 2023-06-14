@@ -1,10 +1,13 @@
 .slideshow {
     position: relative;
+    height: 255px;
   }
   
   .slideshow-image {
+    height: 100%;
     width: 100%;
-    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
   }
   
   .slideshow-button {
