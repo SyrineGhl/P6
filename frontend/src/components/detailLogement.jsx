@@ -44,7 +44,7 @@ const FicheLogement = () => {
           <img src={logement?.host.picture} alt="profil du propriétaire" />
         </div>
       </div>
-      <div className="collapses-details">
+      <div className="collapse">
         <Collapse title="Description" className="collapse">
           <p>
            {logement?.description} 

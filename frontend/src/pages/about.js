@@ -6,6 +6,7 @@ import Collapse from "../components/collapse";
 const About = () => {
   return (
     <Layout>
+      <div className="about">
       <img className="bannerAbout" src="https://cdn.discordapp.com/attachments/1081227920770596865/1118162985941221506/gustavo-alves-YOXSC4zRcxw-unsplash_1.png" alt="Bannière de la page à propos" />
         <div className="collapse">
         <Collapse title="Fiabilité" className="collapse">
@@ -21,6 +22,7 @@ const About = () => {
           <p>La sécurité est notre priorité chez Kasa. Chaque logement respecte nos critères de sécurité, et les notes laissées par les utilisateurs nous aident à vérifier leur conformité. Nous proposons également des ateliers sur la sécurité domestique pour nos hôtes.</p>
         </Collapse>
         </div>
+      </div>
     </Layout>
   );
 };

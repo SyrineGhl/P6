@@ -27,7 +27,7 @@ const LocationCard = () => {
   };
 
   return (
-    <div>
+    <div className="home-container">
       <div className="card-container">
         {displayedData.map((item) => (
           <NavLink key={item?.id} to={`/fiche-logement/${item.id}`} className="card-link" activeclassname="active">

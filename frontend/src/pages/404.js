@@ -5,7 +5,7 @@ export default function QuatreCentQuatre() {
   return (
     <Layout>
         <h3> 404 </h3>
-        <span>Oups! La page que vous demandez n'existe pas.</span>
+        <p>Oups! La page que vous demandez n'existe pas.</p>
     </Layout>
   )
 }

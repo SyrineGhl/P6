@@ -1,77 +1,81 @@
 /* MOBILE */
-.card-container {
-  margin: 4% auto;
-  padding: 1%;
-  max-width: 1600px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-}
+.home-container{
+  margin-inline: 19px;
+  .card-container {
+    margin: 4% auto;
+    padding: 1%;
+    max-width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    .card {
 
-.card {
-  position: relative;
-  flex: 0 0 100%; 
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  background: center/cover;
-  border-radius: 10px;
-  min-width: 340px;
-  min-height: 340px;
-  width: 100%;
-  height: 100%;
-  max-width: 140px;
-  overflow: hidden;
-  margin: 10px;
-}
-
-.card img {
-  flex: 1 0 25%;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.card-title {
-  position: absolute;
-  background-color:rgb(255, 96, 96, 0.6) ;
-  width: 100%;
-  border-radius: 0 0 10px 10px;
-  h2{
-    z-index: 1;
-    left: 0;
-    bottom: 0;
-    font-size: 16px;
-    line-height: 25px;
-    color: $white;
-    margin: 0 0 5% 5%;
-    max-width: 65%;
-    margin: 15px 19px;
+      position: relative;
+      flex: 0 0 100%; 
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      background: center/cover;
+      border-radius: 10px;
+      min-width: 340px;
+      min-height: 340px;
+      width: 100%;
+      height: 100%;
+      max-width: 140px;
+      overflow: hidden;
+      margin: 10px;
+      .card-title {
+        position: absolute;
+        background-color:rgb(255, 96, 96, 0.6) ;
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+        h2{
+          z-index: 1;
+          left: 0;
+          bottom: 0;
+          font-size: 16px;
+          line-height: 25px;
+          color: $white;
+          margin: 0 0 5% 5%;
+          max-width: 65%;
+          margin: 15px 19px;
+        }
+      }
+      img {
+        flex: 1 0 25%;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+     button {
+      width: 50%;
+      margin-bottom: 20px;
+      color: $red;
+      background-color: $white;
+      border-radius: 20px;
+      padding: 10px;
+      background-color: $red;
+      color: $white;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+    }
   }
 }
 
-.button-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  align-items: center;
-}
 
-.button-container button {
-  width: 50%;
-  margin-bottom: 20px;
-  color: $red;
-  background-color: $white;
-  border-radius: 20px;
-  padding: 10px;
-  background-color: $red;
-  color: $white;
-  font-size: 16px;
-  cursor: pointer;
-  border: none;
-}
+
+
+
 
 
 /* DESKTOP */
