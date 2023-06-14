@@ -35,15 +35,21 @@
 }
 
 .card-title {
-  z-index: 1;
   position: absolute;
-  left: 0;
-  bottom: 0;
-  font-size: 16px;
-  line-height: 25px;
-  color: $white;
-  margin: 0 0 5% 5%;
-  max-width: 65%;
+  background-color:rgb(255, 96, 96, 0.6) ;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  h2{
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    font-size: 16px;
+    line-height: 25px;
+    color: $white;
+    margin: 0 0 5% 5%;
+    max-width: 65%;
+    margin: 15px 19px;
+  }
 }
 
 .button-container {
@@ -53,7 +59,7 @@
   align-items: center;
 }
 
-button {
+.button-container button {
   width: 50%;
   margin-bottom: 20px;
   color: $red;
@@ -66,8 +72,6 @@ button {
   cursor: pointer;
   border: none;
 }
-
-/* TABLET */
 
 
 /* DESKTOP */

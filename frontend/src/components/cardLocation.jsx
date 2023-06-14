@@ -32,7 +32,9 @@ const LocationCard = () => {
         {displayedData.map((item) => (
           <NavLink key={item?.id} to={`/fiche-logement/${item.id}`} className="card-link" activeclassname="active">
             <div className="card">
-              <h2 className="card-title">{item?.title}</h2>
+              <div className="card-title">
+              <h2>{item?.title}</h2>
+              </div>
               <img src={item?.cover} alt={item?.title} />
             </div>
           </NavLink>

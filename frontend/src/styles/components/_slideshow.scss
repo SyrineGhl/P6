@@ -1,0 +1,29 @@
+.slideshow {
+    position: relative;
+  }
+  
+  .slideshow-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .slideshow-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    cursor: pointer;
+    border: 4px;
+    font-size: 60px;
+    color: $white;
+    z-index: 1;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+  
