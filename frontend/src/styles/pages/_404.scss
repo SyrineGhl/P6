@@ -1,13 +1,33 @@
-h3{
-    color: $red;
-    font-size: 90px;
-    text-align: center;
-    margin-bottom: 70px;
-    margin-top: 50px;
+.page404 {
+    margin-inline:19px;
+    h3{
+        color: $red;
+        font-size: 90px;
+        text-align: center;
+        margin-bottom: 70px;
+        margin-top: 50px;
+    }
+    p{
+        color: $red;
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 18px;
+    }
+    .link-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+      
+      .link404 {
+        color: $red;
+        text-decoration: underline;
+        justify-content: center;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        display: flex;
+      }
+    
 }
-p{
-    color: $red;
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 18px;
-}
+  

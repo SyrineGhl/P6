@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 
 const LocationCard = () => {
   const [data, setData] = useState([]);
@@ -30,10 +30,15 @@ const LocationCard = () => {
     <div className="home-container">
       <div className="card-container">
         {displayedData.map((item) => (
-          <NavLink key={item?.id} to={`/fiche-logement/${item.id}`} className="card-link" activeclassname="active">
+          <NavLink
+            key={item?.id}
+            to={`/fiche-logement/${item.id}`}
+            className="card-link"
+            activeclassname="active"
+          >
             <div className="card">
               <div className="card-title">
-              <h2>{item?.title}</h2>
+                <h2>{item?.title}</h2>
               </div>
               <img src={item?.cover} alt={item?.title} />
             </div>
@@ -41,9 +46,9 @@ const LocationCard = () => {
         ))}
       </div>
       {!showMore && data.length > 3 && (
-          <div className="button-container">
-        <button onClick={handleShowMore}>Voir plus</button>
-      </div>
+        <div className="button-container">
+          <button onClick={handleShowMore}>Voir plus</button>
+        </div>
       )}
     </div>
   );

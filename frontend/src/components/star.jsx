@@ -3,7 +3,8 @@ import React from "react";
 const Star = ({ rating }) => {
   const stars = Array.from({ length: 5 }, (_, index) => (
     <span className="starRating" key={index}>
-      <svg className={index < rating ? "full-star" : "empty-star"}
+      <svg
+        className={index < rating ? "full-star" : "empty-star"}
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
         viewBox="0 0 576 512"

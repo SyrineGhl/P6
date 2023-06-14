@@ -6,13 +6,12 @@ footer{
     align-items: center;
     height: 200px; 
     color: white;
-}
-footer img{
-   
-
-    margin-bottom: 15px;
-}
-footer p{
-    display: flex;
-    font-size: 11px;
+    img{
+       margin-bottom: 15px;
+   }
+    p{
+        display: flex;
+        font-size: 11px;
+        color: $white;
+    }
 }

@@ -46,9 +46,7 @@ const FicheLogement = () => {
       </div>
       <div className="collapse">
         <Collapse title="Description" className="collapse">
-          <p>
-           {logement?.description} 
-          </p>
+          <p>{logement?.description}</p>
         </Collapse>
         <Collapse title="Equipements" className="collapse">
           <ul>
@@ -58,7 +56,6 @@ const FicheLogement = () => {
             <li>{logement?.equipments[3]}</li>
             <li>{logement?.equipments[4]}</li>
           </ul>
-         
         </Collapse>
       </div>
     </article>

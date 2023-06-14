@@ -21,11 +21,21 @@ const Slideshow = ({ images }) => {
 
   return (
     <div className="slideshow">
-      <button className="slideshow-button prev-button" onClick={handlePreviousImage}>
+      <button
+        className="slideshow-button prev-button"
+        onClick={handlePreviousImage}
+      >
         <span>&lt;</span> {/* Icône de flèche précédente */}
       </button>
-      <img className="slideshow-image" src={images[currentImageIndex]} alt="Slideshow" />
-      <button className="slideshow-button next-button" onClick={handleNextImage}>
+      <img
+        className="slideshow-image"
+        src={images[currentImageIndex]}
+        alt="Slideshow"
+      />
+      <button
+        className="slideshow-button next-button"
+        onClick={handleNextImage}
+      >
         <span>&gt;</span> {/* Icône de flèche suivante */}
       </button>
     </div>
