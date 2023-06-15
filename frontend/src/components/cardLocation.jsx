@@ -1,29 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import Data from "../fixture/logements.json"
 
 const LocationCard = () => {
-  const [data, setData] = useState([]);
-  const [displayedData, setDisplayedData] = useState([]);
   const [showMore, setShowMore] = useState(false);
+  const [displayedData, setDisplayedData] = useState([])
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch("../../data/logements.json");
-        const jsonData = await response.json();
-        setData(jsonData);
-        setDisplayedData(jsonData.slice(0, 3));
-      } catch (error) {
-        console.log("Erreur lors de la récupération des données :", error);
-      }
-    };
+ useEffect(()=> { 
+   setDisplayedData(Data.slice(0, 3));
+ }, []);
 
-    fetchData();
-  }, []);
-
-  const handleShowMore = () => {
-    setShowMore(true);
-    setDisplayedData(data);
+const handleShowMore = () => {
+  setShowMore(true);
+  setDisplayedData(Data);
   };
 
   return (
@@ -45,7 +34,7 @@ const LocationCard = () => {
           </NavLink>
         ))}
       </div>
-      {!showMore && data.length > 3 && (
+      {!showMore && Data.length > 3 && (
         <div className="button-container">
           <button onClick={handleShowMore}>Voir plus</button>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Layout from "../components/layout";
 
-const QuatreCentQuatre = () => {
+const NotFound = () => {
   return (
     <Layout>
       <div className="page404">
@@ -16,4 +16,4 @@ const QuatreCentQuatre = () => {
   );
 };
 
-export default QuatreCentQuatre;
+export default NotFound;
