@@ -1,18 +1,17 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import Data from "../fixture/logements.json"
+import Data from "../fixture/logements.json";
 
 const LocationCard = () => {
   const [showMore, setShowMore] = useState(false);
-  const [displayedData, setDisplayedData] = useState([])
+  const [displayedData, setDisplayedData] = useState([]);
 
- useEffect(()=> { 
-   setDisplayedData(Data.slice(0, 3));
- }, []);
+  useEffect(() => {
+    setDisplayedData(Data.slice(0, showMore ? Data.length : 6));
+  }, [showMore]);
 
-const handleShowMore = () => {
-  setShowMore(true);
-  setDisplayedData(Data);
+  const handleShowMore = () => {
+    setShowMore(true);
   };
 
   return (
@@ -23,7 +22,6 @@ const handleShowMore = () => {
             key={item?.id}
             to={`/fiche-logement/${item.id}`}
             className="card-link"
-            activeclassname="active"
           >
             <div className="card">
               <div className="card-title">
@@ -34,7 +32,7 @@ const handleShowMore = () => {
           </NavLink>
         ))}
       </div>
-      {!showMore && Data.length > 3 && (
+      {!showMore && Data.length > 6 && (
         <div className="button-container">
           <button onClick={handleShowMore}>Voir plus</button>
         </div>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import Slideshow from "./slideshow";
 import Star from "./star";
 import Collapse from "./collapse";
@@ -8,20 +8,19 @@ import Data from "../fixture/logements.json"
 const FicheLogement = () => {
   const { id } = useParams();
   const [logement, setLogement] = useState();
-
+  const navigate = useNavigate();
   useEffect(() => {
-    const fetchLogement = async () => {
-      try {
-        const logementData = Data.find((item) => item.id === id);
+    try {
+      const logementData = Data.find((item) => item.id === id);
+      if (!logementData){
+        return navigate("/404")
+      }
         setLogement(logementData);
-        console.log(setLogement(logementData));
       } catch (error) {
         console.error("Erreur lors de la récupération des données :", error);
       }
-    };
 
-    fetchLogement();
-  }, [id]);
+  }, [id, navigate]);
 
   return (
     <article className="housingDetailComponent">
