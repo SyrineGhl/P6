@@ -24,9 +24,9 @@
 }
 
 @media screen and (min-width: 768px) {
-    /* Styles spécifiques pour les tablettes */
+   
     .banner {
-      height: 100px; /* Modifier la hauteur selon les besoins */
+      height: 100px; 
       margin-left: 20px;
       margin-right: 20px;
       display: flex;
@@ -38,7 +38,7 @@
   }
 
   @media screen and (min-width: 1024px) {
-    /* Styles spécifiques pour les écrans de bureau (desktop) */
+   
     .banner {
         margin-left: 20px;
         margin-right: 20px;

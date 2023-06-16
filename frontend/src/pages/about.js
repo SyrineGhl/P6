@@ -11,7 +11,7 @@ const About = () => {
           src="https://cdn.discordapp.com/attachments/1081227920770596865/1118162985941221506/gustavo-alves-YOXSC4zRcxw-unsplash_1.png"
           alt="Bannière de la page à propos"
         />
-        <div className="collapse">
+        <div className="collapse-about">
           <Collapse title="Fiabilité" className="collapse">
             <p>
               Les annonces sur Kasa sont réputées pour leur fiabilité absolue.

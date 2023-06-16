@@ -8,4 +8,42 @@
         margin-bottom: 10px;
         width: 100%;
       }
+      .collapse-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+  
+}
+
+@media screen and (min-width: 768px) {
+ 
+  .about {
+    .bannerAbout{
+     content: url("https://cdn.discordapp.com/attachments/1081227920770596865/1119269651722022985/kalen-emsley-Bkci_8qcdvQ-unsplash_2.png"); 
+    width: 700px;
+    height: 133px;
+    object-fit: cover;
+    }
+    .collapse-about{
+      margin: 50px;
+
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about {
+    margin:20px;
+    .bannerAbout{
+  width: 100%;
+  height: 223px;
+}
+.collapse-about{
+  margin: 90px;
+  margin-top: 40px;
+}
+}
 }
