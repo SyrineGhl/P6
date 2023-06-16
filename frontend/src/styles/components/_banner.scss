@@ -5,13 +5,13 @@
     align-items: center;
     position: relative;
     margin-inline: 19px;
+    margin-bottom: 22px;
     .imgBanner {
         width: 100%;
         height: 100%;
         object-fit: cover;
         border-radius: 10px;
-        filter: contrast(0.5);
-       
+        filter: contrast(0.5);   
     }
     h1{
         position: absolute;
@@ -22,6 +22,33 @@
         font-weight: normal;
     }
 }
+
+@media screen and (min-width: 768px) {
+    /* Styles spécifiques pour les tablettes */
+    .banner {
+      height: 100px; /* Modifier la hauteur selon les besoins */
+      margin-left: 20px;
+      margin-right: 20px;
+      display: flex;
+      justify-content: center;
+      .imgBanner{
+       content: url("https://cdn.discordapp.com/attachments/1081227920770596865/1116737202408398898/IMG.jpg"); 
+      }
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    /* Styles spécifiques pour les écrans de bureau (desktop) */
+    .banner {
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 223px;
+        border-radius: 25px;
+        h1{
+            font-size: 3rem;
+        }
+    }
+  }
 
 
 
