@@ -114,5 +114,13 @@ valeur présente dans l’URL ne fait pas partie des données renseignées.
 
 ![site en desktop](https://cdn.discordapp.com/attachments/1081227920770596865/1120365236348792992/Capture_decran_2023-06-19_a_16.51.16.png)
 
+ <h2 align="center"> Droits d’auteurs et informations sur la licence.</h2>
+
+Réalisé par Syrine Ghoul.
+
+©2000 [Openclassroom](https://openclassrooms.com/fr/), Inc. Tout droit réservés.
+
+![Openclassroom](https://camo.githubusercontent.com/e47c349811ac404b8147bd362c598e61c7d20225df17499c6373b44f6ee08a3d/68747470733a2f2f31746f3170726f67726573732e66722f77702d636f6e74656e742f75706c6f6164732f323031392f30352f6f70656e636c617373726f6f6d732d65313535373736313233363135382e706e67)
+
 
 
