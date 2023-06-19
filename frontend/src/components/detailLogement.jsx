@@ -27,7 +27,7 @@ const FicheLogement = () => {
       <div className="housing-owner-info">
         <div className="housing-info">
           <h1>{logement?.title}</h1>
-          <p>{logement?.location}</p>
+          <h2>{logement?.location}</h2>
           <ul className="tags">
             {logement?.tags.map((item, i) => (
               <li key={i}>{item}</li>
@@ -40,7 +40,7 @@ const FicheLogement = () => {
           </div>
           <div className="owner-profile">
             <p>{logement?.host.name}</p>
-            <img src={logement?.host.picture} alt="profil du propriétaire" />
+            <img src={logement?.host.picture} alt="profil du propriétaire" width={64} height={64}/>
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ const About = () => {
         <img
           className="bannerAbout"
           src="https://cdn.discordapp.com/attachments/1081227920770596865/1118162985941221506/gustavo-alves-YOXSC4zRcxw-unsplash_1.png"
-          alt="Bannière de la page à propos"
+          alt="Bannière de la page à propos" width={1200} height={223}
         />
         <div className="collapse-about">
           <Collapse title="Fiabilité" className="collapse">

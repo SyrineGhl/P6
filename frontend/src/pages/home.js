@@ -9,7 +9,7 @@ export default function Home() {
       <Layout>
         <Banner
           imgSrc="https://cdn.discordapp.com/attachments/1081227920770596865/1116737002897940721/IMG.jpg"
-          alt="bannière"
+          imgAlt="banniere colline ciel nuageux brouillard"
         />
         <LocationCard />
       </Layout>

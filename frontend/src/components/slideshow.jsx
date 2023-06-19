@@ -23,7 +23,7 @@ const Slideshow = ({ images }) => {
     <div className="slideshow">
       <button
         className="slideshow-button prev-button"
-        onClick={handlePreviousImage}
+        onClick={handlePreviousImage} aria-label="Afficher les images précédentes"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -36,11 +36,11 @@ const Slideshow = ({ images }) => {
       <img
         className="slideshow-image"
         src={images[currentImageIndex]}
-        alt="Slideshow"
+        alt="Slideshow" width={984} height={415}
       />
       <button
         className="slideshow-button next-button"
-        onClick={handleNextImage}
+        onClick={handleNextImage} aria-label="Afficher les images suivantes"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

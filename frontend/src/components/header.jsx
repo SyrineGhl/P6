@@ -4,12 +4,14 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header>
-      <Link to="/">
-        <img
-          src="https://cdn.discordapp.com/attachments/1081227920770596865/1116666734104031292/LOGO.png"
-          alt="Logo Kasa"
-        />
-      </Link>
+      <div className="logo-kasa">
+        <Link to="/">
+          <img
+            src="https://cdn.discordapp.com/attachments/1081227920770596865/1116666734104031292/LOGO.png"
+            alt="Logo Kasa" width={210} height={68}
+          />
+        </Link>
+      </div>
       <ul>
         <li>
           <a href="/">ACCUEIL</a>

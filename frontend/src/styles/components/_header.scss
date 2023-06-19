@@ -2,27 +2,33 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    
-    img{
-        width: 60%;
-    }     
+    width: 100%;
+    .logo-kasa{
+        display: flex;
+        align-items: center;
+        a{
+            width: 60%;
+            img{
+                width: 100%;
+                height: fit-content;
+            }     
+        }
+    }
     ul{
         list-style: none;
         display: flex; 
-        margin-right: 3px;
+        // margin-right: 3px;
     }
     li{
         width: 66px;
-        margin-block: 8px;
+        margin-block: 15px;
         &:first-child{
-            margin-right: 15px;
+            margin-right: 11px;
         }
     }
     a{
         text-decoration: none;
-        list-style: none;
-        color:#FF6060;   
-        font-family: 'Montserrat', sans-serif;  
+        color: $red;    
         font-size: 10px;   
         &:hover{
            text-decoration: underline;
@@ -40,15 +46,17 @@ header{
         margin: 0 auto;
     }
 }
-@media only screen and (min-width :1440px) {
-    header {
-        padding: 0;
-        margin: 20px 114px;
-        li{
-            width: 100px;
-        }
-        a{
-            font-size: 17px;
+
+@media only screen and (min-width :1024px) {
+    header{
+        ul{
+            li{
+                width: 136px;
+                a{
+                    font-size: 1.5rem;
+
+                }
+            }
         }
     }
 }

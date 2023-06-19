@@ -27,7 +27,7 @@ const LocationCard = () => {
               <div className="card-title">
                 <h2>{item?.title}</h2>
               </div>
-              <img src={item?.cover} alt={item?.title} />
+              <img src={item?.cover} alt={item?.title} width={360} height={255}/>
             </div>
           </NavLink>
         ))}
