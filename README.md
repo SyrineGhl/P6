@@ -35,10 +35,9 @@
 
 - Installer Visual Studio Code.
 - Avoir un terminal en bash.
-- Crée un dépôt GitHub.
-- Récupérer la clé SSH du dépôt.
-- Dans le terminal faite git clone `lien-ssh nom-du-projet`.
-- Entrer dans le dossier `cd nom-du-projet`.
+- Récupérer le lien du repo SSH.
+- Dans le terminal cloner le repo git `git clone (mettre lien ssh) frontend`.
+- Entrer dans le dossier `cd frontend`.
 - Ajouter l'application React npx create-react-app frontEnd.
 - Entrer dans le dossier `cd frontEnd`.
 - Lancer l'application `npm start`
