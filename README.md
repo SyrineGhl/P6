@@ -31,18 +31,25 @@
 - Ajout de la redirection d'erreur 404 en l'ajoutant aux URL avec id fausse 
 - Responsive du desktop et mobile 
 
+<h2 align="center"> Instruction de lancement </h2>
+- Récupérer le lien du repo SSH.
+- Dans le terminal cloner le repo git `git clone (mettre lien ssh) frontend`.
+- Entrer dans le dossier `cd frontend`.
+- Faire `npm i`pour ajouter les dépendances.
+- Faire `npm start`pour lancer le server.
+
 <h2 align="center"> Instruction d'installation et d'utilisation </h2>
 
 - Installer Visual Studio Code.
 - Avoir un terminal en bash.
 - Récupérer le lien du repo SSH.
-- Dans le terminal cloner le repo git `git clone (mettre lien ssh) frontend`.
-- Entrer dans le dossier `cd frontend`.
+- Dans le terminal cloner le repo git `git clone (mettre lien ssh) p6`.
 - Ajouter l'application React npx create-react-app frontEnd.
 - Entrer dans le dossier `cd frontEnd`.
 - Lancer l'application `npm start`
 - Ouvrez un autre terminal (raccourci mac `cmd + n`)
 - Dans l'application React installer Sass npm install `node-sass --save`.
+- Installer react router `npm install react-router-dom`.
 
 <h2 align="center"> Condition </h2>
 

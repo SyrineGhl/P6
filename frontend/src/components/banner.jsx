@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 const Banner = (props) => {
   const { imgSrc, imgAlt } = props;
