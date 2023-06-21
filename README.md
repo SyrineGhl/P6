@@ -32,6 +32,7 @@
 - Responsive du desktop et mobile 
 
 <h2 align="center"> Instruction de lancement </h2>
+
 - Récupérer le lien du repo SSH.
 - Dans le terminal cloner le repo git `git clone (mettre lien ssh) frontend`.
 - Entrer dans le dossier `cd frontend`.
