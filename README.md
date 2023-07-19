@@ -45,7 +45,7 @@
 - Avoir un terminal en bash.
 - Récupérer le lien du repo SSH.
 - Dans le terminal cloner le repo git `git clone (mettre lien ssh) p6`.
-- Ajouter l'application React npx create-react-app frontEnd.
+- React est une application donc pour le creer il faut faire cette commande : `npx create-react-app frontEnd`.
 - Entrer dans le dossier `cd frontEnd`.
 - Lancer l'application `npm start`
 - Ouvrez un autre terminal (raccourci mac `cmd + n`)
