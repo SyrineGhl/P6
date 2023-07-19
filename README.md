@@ -49,7 +49,7 @@
 - Entrer dans le dossier `cd frontEnd`.
 - Lancer l'application `npm start`
 - Ouvrez un autre terminal (raccourci mac `cmd + n`)
-- Dans l'application React installer Sass npm install `node-sass --save`.
+- Dans l'application React installer Sass `npm install sass --save`.
 - Installer react router `npm install react-router-dom`.
 
 <h2 align="center"> Condition </h2>
